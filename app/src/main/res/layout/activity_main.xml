@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:drawable/ic_lock_idle_alarm"
+        android:backgroundTint="#A7FFEB"
+        android:backgroundTintMode="add"
+        android:gravity="center"
+        android:padding="24dp"
+        android:rotationX="-2"
+        android:shadowColor="#B53030"
+        android:text="Minute Age Calculator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#832525" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:shadowColor="#FDF6FE"
+        android:text="Age In Minutes"
+        android:textAlignment="center"
+        android:textColor="#8A0C0C"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="#A7FFEB"
+        android:backgroundTintMode="src_in"
+        android:foregroundTint="#82B1FF"
+        android:text="Select Date"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Selected Date"
+        android:textAlignment="center"
+        android:textColor="#989191"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/selda"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:backgroundTint="#A7FFEB"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="visible"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="In Minutes"
+        android:textAlignment="center"
+        android:textColor="#797A7C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sldinmin"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:backgroundTint="#A7FFEB"
+        android:textAlignment="center"
+        android:textColor="#DD0A0A"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
